@@ -1,0 +1,15 @@
+/* navigation style */
+
+.nav__links {
+    list-style: none;
+    display: flex;
+}
+
+.nav__links li {
+    margin-left: 92px;
+}
+
+.nav__links li a {
+    color:black;
+}
+

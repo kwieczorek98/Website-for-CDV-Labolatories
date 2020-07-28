@@ -1,0 +1,32 @@
+/* about.php styles */
+
+.about {
+    display: flex;
+}
+
+.about__background {
+    width: 50%;
+}
+
+.about__content {
+    color: black;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about__background img{
+    width: 50vw;
+    height: 100vh;
+    
+}
+
+.about__content h1 {
+    font-size: 40px;
+    font-weight: 400;
+}

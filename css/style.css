@@ -1,0 +1,64 @@
+/* styles.css files which include other files */
+
+
+/*  nav styles import */
+@import 'nav.css';
+
+/*  offer styles import */
+@import 'offer.css';
+
+/*  about styles import */
+@import 'about.css';
+
+/*  contact styles import */
+@import 'contact.css';
+
+/*  gallery styles import */
+@import 'gallery.css';
+
+/*  index styles import */
+@import 'index.css';
+
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* body styles */
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    /*color: #fff;*/
+}
+
+/* header styles */
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 22px 3%;
+    background-color: #eee;
+}
+
+/* logo styles */
+.logo {
+    width: 26px;
+    height: 26px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+

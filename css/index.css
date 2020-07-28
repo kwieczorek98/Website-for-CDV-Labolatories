@@ -1,0 +1,35 @@
+/* index.php styles */
+
+.content {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+    ), url("../images/background.png");
+    background-size: cover;
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-title h1 {
+    font-size: 96px;
+    font-weight: 300;
+    margin-bottom: 125px;
+    color: white;
+}
+
+.content-text {
+    width: 760px;
+}
+
+.content-text p {
+    font-size: 20px;
+    color: white;
+
+}
+
+.footer p {
+    color: black;
+}

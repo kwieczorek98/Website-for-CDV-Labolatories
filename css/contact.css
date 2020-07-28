@@ -1,0 +1,75 @@
+/* contact.php styles */
+
+.contact {
+    display: flex;
+}
+
+.contact_left {
+    width: 50%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_left h1 {
+    font-size: 34px;
+    font-weight: 400;
+    margin-top: 95px;
+}
+
+.contact_left form {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    width: 374px;
+    margin-top: 82px;
+}
+
+.contact_left input {
+    font-family: inherit;
+    font-size: 16px;
+    padding: 16px 20px;
+    width: 398px;
+}
+
+.contact_left input:nth-child(2) {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.contact_left textarea {
+    margin-top: 35px;
+    font-size: 16px;
+    font-family: inherit;
+    padding: 16px 20px;
+    height: 160px;
+    width: 398px;
+}
+
+.contact_left button {
+    margin-top: 35px;
+    background: #FFF;
+    padding: 16px 40px;
+    font-family: inherit;
+    font-size: 16px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.contact_left button:hover {
+    background: #000;
+    color: white;
+    transition: 0.3s;
+}
+
+.error_message{
+    color:red;
+}
+
+.succes_message{
+    font-size: 34px;
+    font-weight: 400;
+    margin-top: 95px;
+    color: green;
+}
